@@ -5,7 +5,7 @@ import re                   # for regex to extract the code blocks
 
 # API key config (Creating the client which talks with Groq using API key)
 import os
-API_KEY = os.environ.get("API_KEY")
+API_KEY = os.environ.get("GROQ_API_KEY")
 client = Groq(api_key=API_KEY)
 
 # Groq Response Function
